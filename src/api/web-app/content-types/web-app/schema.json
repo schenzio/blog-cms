@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_apps",
+  "info": {
+    "singularName": "web-app",
+    "pluralName": "web-apps",
+    "displayName": "WebApp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "Client": {
+      "type": "string"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
